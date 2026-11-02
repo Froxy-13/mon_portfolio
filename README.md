@@ -65,4 +65,5 @@ Ce projet est libre d'utilisation.
 
 ## 👤 Auteur
 
-Baye Cheikh Diakhate - cheikh.dev21@gmail.com
+Alpha Diallo - alphadialloo3000@gmail.com
+
