@@ -4,13 +4,14 @@ import vipCoiffureImg from '../images/VipCoiffure.png';
 import alluwaKidsImg from '../images/AlluwaKids.png';
 import samaciteImg from '../images/SamaCite.png';
 import iteaSchoolImg from '../images/IteaSchool.png';
+import rizenImg from '../images/Rizen.png';
 
 const portfolioItems = [
   {
     cat: 'saas',
     img: goodrhImg,
     title: 'GoodRH',
-    desc: "Plateforme SaaS complète de gestion des ressources humaines (SIRH) pour les organisations d'Afrique de l'Ouest. Multi-tenant avec contrôle d'accès basé sur les rôles.",
+    desc: "Plateforme SaaS complète de gestion des ressources humaines (SIRH) pour les organisations d'Afrique de l'Ouest. Multi-tenant avec contrôle d'accès basé sur les rôles. Réalisée lors d'un stage.",
     tags: ['Laravel 12', 'React 19', 'TypeScript', 'PostgreSQL', 'Tailwind CSS'],
     github: 'https://github.com/Noe06-t/SIRH-ATAABA',
     site: 'https://goodrh.com/',
@@ -19,7 +20,7 @@ const portfolioItems = [
     cat: 'client',
     img: vipCoiffureImg,
     title: 'Vip Coiffure',
-    desc: "Site de gestion des rendez-vous pour un salon de coiffure. Développé lors d'un stage chez TerangaDev.",
+    desc: "Site de gestion des rendez-vous pour un salon de coiffure. Réalisé lors d'un stage de 3 mois chez TerangaDev.",
     tags: ['WordPress'],
     site: 'https://www.vip-coiffure.terangadev.com/',
   },
@@ -27,9 +28,8 @@ const portfolioItems = [
     cat: 'product',
     img: alluwaKidsImg,
     title: 'AlluwaKids',
-    desc: "Plateforme d'apprentissage interactive pour enfants, combinant jeux éducatifs, exercices ludiques et suivi de progression. Conçue pour rendre l'apprentissage engageant dès le plus jeune âge.",
-    tags: ['Laravel', 'React', 'Vite'],
-    github: 'https://github.com/idy-00/edukids',
+    desc: "Plateforme d'apprentissage interactive pour enfants, combinant jeux éducatifs, exercices ludiques et suivi de progression. Réalisée lors d'un stage.",
+    tags: ['Next.js 14', 'TypeScript', 'React 18', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
     site: 'https://alluwakids.com/',
   },
   {
@@ -43,16 +43,17 @@ const portfolioItems = [
   },
   {
     cat: 'mobile',
+    img: rizenImg,
     title: 'Rizen',
-    desc: "Application mobile de vente et d'achat d'articles de seconde main au Sénégal. Projet de fin de cycle.",
-    tags: ['Flutter', 'Supabase', 'PostgreSQL'],
+    desc: "Application mobile et web de vente et d'achat d'articles de seconde main au Sénégal. Projet de fin de cycle.",
+    tags: ['Flutter', 'Next.js 14', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL'],
     github: 'https://github.com/Froxy-13/Rizen',
   },
   {
     cat: 'mobile',
     img: iteaSchoolImg,
     title: 'ITEA School Mobile',
-    desc: "Application mobile d'apprentissage couvrant le développement web, mobile, Excel, Word et d'autres compétences numériques.",
+    desc: "Application mobile d'apprentissage couvrant le développement web, mobile, Excel, Word et d'autres compétences numériques. Réalisée lors d'un stage de 3 mois chez ITEA.",
     tags: ['Flutter'],
     site: 'https://iteaschool.sn',
   },

@@ -1,4 +1,6 @@
 import React from 'react';
+import photoAbout from '../images/photo-about.jpeg';
+
 export default function AboutSection() {
   return (
     <section className="z-10 xl:py-24 mt-24 pt-12 pb-12 relative" id="about">
@@ -6,8 +8,14 @@ export default function AboutSection() {
         <div className="grid gap-12 lg:grid-cols-12 items-center">
 
           <div className="lg:col-span-5 relative animate-on-scroll" style={{ animation: 'fadeSlideIn 0.6s ease-in-out 0.1s both' }}>
-            <div className="relative overflow-hidden rounded-2xl aspect-[4/5] max-h-[600px] bg-gradient-to-br from-sky-500/20 to-indigo-600/20 flex items-center justify-center">
-              <span className="text-[120px] font-bold text-white/10 select-none">AD</span>
+            <div className="relative overflow-hidden rounded-2xl aspect-[4/5] max-h-[600px]">
+              <img
+                src={photoAbout}
+                alt="Alpha Diallo"
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
             </div>
           </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import TypeWords from './TypeWords';
 import Stars from './Stars';
 import Navbar from './Navbar';
+import photoHero from '../images/photo-hero.jpeg';
 
 const SHOOTING_STARS = [
   { top: '6%',  left: '8%',  dur: 9,  delay: 0 },
@@ -89,13 +90,14 @@ export default function HeroSection() {
         <h1 className="leading-[0.95] font-semibold text-white tracking-tight pb-8" style={{ animation: 'titleEmergence 1.8s ease-out both' }}>
           <span className="block text-[10vw] sm:text-7xl lg:text-8xl text-center">
             <span className="flex w-full items-center justify-center gap-4 sm:gap-6">
-              <span
-                aria-label="Portrait de Alpha Diallo"
-                className="w-[10vw] h-[10vw] sm:w-[70px] sm:h-[70px] lg:w-[90px] lg:h-[90px] rounded-full border-2 border-white/20 shadow-2xl flex items-center justify-center bg-gradient-to-br from-sky-500/40 to-indigo-600/40 text-white font-bold text-[3vw] sm:text-xl lg:text-2xl select-none"
+              <img
+                src={photoHero}
+                alt="Portrait de Alpha Diallo"
+                className="w-[10vw] h-[10vw] sm:w-[70px] sm:h-[70px] lg:w-[90px] lg:h-[90px] rounded-full object-cover border-2 border-white/20 shadow-2xl"
                 style={{ animation: 'portraitFall 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 0.8s both' }}
-              >
-                AD
-              </span>
+                fetchpriority="high"
+                decoding="async"
+              />
               <span>Création</span>
             </span>
             <span className="block w-full text-white/85 animate-shimmer-mask [--shine:220%]">applications web</span>
